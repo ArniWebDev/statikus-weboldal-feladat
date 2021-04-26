@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: "Mulish", sans-serif;
+	color: #373f41;
+}
+
+body {
+	background-color: rgba(60, 100, 175, 0.1);
+}
+
+.wrapper {
+	width: 76.5%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Header */
+
+header {
+	height: 88px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+	color: rgba(60, 100, 175);
+}
+
+nav {
+	text-align: center;
+	margin-left: 7.5vw;
+}
+
+nav > a {
+	margin-left: 1.5rem;
+	font-weight: 600;
+}
+
+nav > .active,
+nav > a:hover {
+	color: rgba(60, 100, 175);
+}
+
+.login-register {
+	text-align: right;
+	font-weight: bold;
+}
+
+.login-register > a {
+	padding: 12px 18px;
+}
+
+.login-register > a:first-child {
+	color: rgba(60, 100, 175);
+}
+
+.login-register > a:last-child {
+	background-color: rgba(60, 100, 175);
+	color: rgb(255, 255, 255);
+}
