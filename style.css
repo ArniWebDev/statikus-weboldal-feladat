@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-	width: 76.5%;
+	width: 78%;
 	max-width: 1100px;
 	margin: 0 auto;
 }
@@ -76,4 +76,157 @@ nav > a:hover {
 .login-register > a:last-child {
 	background-color: rgba(60, 100, 175);
 	color: rgb(255, 255, 255);
+}
+
+/* Main section */
+
+main {
+	padding: 80px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.video-container {
+	display: flex;
+	align-items: center;
+	width: 45vw;
+	max-width: 635px;
+}
+
+.video-container iframe {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+main .text-container {
+	padding-left: 30px;
+	max-width: 445px;
+}
+
+main .text-container a:first-child {
+	font-size: 0.875;
+	color: rgba(60, 100, 175);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 2.75rem;
+	font-weight: 600;
+	margin-top: 12px;
+}
+
+main .text-container p {
+	color: #737b7d;
+	margin-top: 40px;
+}
+
+main .text-container a:last-child {
+	display: inline-block;
+	color: rgba(60, 100, 175);
+	font-size: 0.875rem;
+	font-weight: 600;
+	margin-top: 56px;
+	border: 1px solid rgba(60, 100, 175);
+	padding: 12px 18px;
+}
+
+/* About us section */
+
+.white-wrapper {
+	background-color: rgb(255, 255, 255);
+}
+
+section.about {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 80px 0;
+}
+
+.about .text-container {
+	width: 50%;
+	max-width: 540px;
+}
+
+/* .about .text-container h2 {
+	font-size: 2rem;
+	font-weight: 600;
+} */
+
+h2 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.services {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 56px;
+}
+
+.service {
+	width: 50%;
+	max-width: 255px;
+}
+
+.service p {
+	margin-top: 1rem;
+}
+
+.about .img-container {
+	width: 50%;
+	max-width: 540px;
+}
+
+.about .img-container img {
+	width: 100%;
+}
+
+/* Footer */
+
+footer {
+	padding: 80px 0;
+}
+
+footer > h2 {
+	text-align: center;
+}
+
+footer > p {
+	text-align: center;
+	color: #737b7d;
+	margin-top: 1.5rem;
+}
+
+footer .products {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+}
+
+.products > .product {
+	width: 32%;
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product > h3 {
+	margin-top: 1.5rem;
+}
+
+.product > p {
+	text-align: center;
+	font-size: 0.875rem;
+	margin-top: 0.75rem;
+}
+
+.product > a {
+	color: rgba(60, 100, 175);
+	font-weight: 600;
+	margin-top: 1.325rem;
+	padding: 0.75rem 0;
 }
